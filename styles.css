@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    font-family:'Arial','Sans', 'Helivatica';
+    background-color: #000;
+    box-sizing:border-box ;
+}
+
+/* Hero Box */
+.hero-box {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 90%),url("Assets/hero_image.jpeg");
+    background-size:cover;
+    display:grid;
+    /* justify-content: center; */
+    height: 700px;
+    width: 100%;
+    /* align-items: flex-start; */
+}
+
+/* Navigation Panel */
+.nav-panel {
+    width: 95%;
+    height: 86px;
+    margin: 0px 32px;
+    display: flex;
+    background:none;
+    justify-self:start;
+    justify-content:space-between;
+    
+}
+/* Netflix logo */
+.nav-logo {
+    display: flex;
+    width: 222px;
+    height: 86px;
+    margin-left: none;
+    background: transparent;
+}
+
+.logo {
+    width: 222px;
+    height: 60px;
+    margin: auto;
+}
+
+/* Language */
+.lang-outer {
+    width: 70%;
+    height: 100%;
+    background: transparent;
+    margin: auto 0px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.nav-lang {
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    width: 126px;
+    height: 32px;
+    padding: 6px 36px;
+    background: transparent;
+    border: 1.5px solid white;
+    border-radius: 2px;
+    margin: auto 0px;
+    
+    
+}
+
+.select-lang {
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+
+/* Sign In */
+.nav-signin {
+    color: white;
+    background-color: red;
+    padding: 6px 16px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    margin: auto 0px;
+}
+
+.sign-in {
+    background: transparent;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Hero Middle */
+.hero-middle{
+    width: 880px;
+    height: 234px;
+    background: transparent;
+    justify-self: center;
+}
+
+.heading-style {
+    background:transparent;
+    color: white;
+    font-size: 48px;
+}
+
+.para-style {
+    background: transparent;
+    color: white;
+    font-size: 24px;
+    margin: 16px 0px 0px;
+    text-align: center;
+}
+
+/* Email-dialog */
+
+.membership-section{
+    background: transparent;
+    margin-top: 20px;
+}
+form {
+    background: transparent;
+}
+form p {
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+}
+
+.email-dialog {
+    background:transparent;
+    margin: 16px 0px auto;
+    display: flex;
+    justify-content:center;
+}
+form input {
+    width: 380px;
+    height: 56px;
+    padding: 24px 16px 8px;
+    font-size: 16px;
+    margin: auto 0px;
+    background: transparent;
+    color: white;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    display: inline-block;
+    
+}
+
+.email-button {
+    width: 200px;
+    height: 56px;
+    background-color: #e50914;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    margin: 0px 0px 0px 8px;
+    padding: 12px 24px;
+
+}
